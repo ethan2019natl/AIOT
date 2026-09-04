@@ -1,0 +1,127 @@
+2026/09/04 10:01:25  [ERROR]  main.py(行:65: API_URL 尚未設定。請檢查 .env 檔案。)
+2026/09/04 10:01:44  [ERROR]  main.py(行:65: API_URL 尚未設定。請檢查 .env 檔案。)
+2026/09/04 10:10:28  [ERROR]  main.py(行:65: API_URL 尚未設定。請檢查 .env 檔案。)
+2026/09/04 10:13:52  [ERROR]  main.py(行:65: API_URL 尚未設定。請檢查 .env 檔案。)
+2026/09/04 10:14:38  [ERROR]  main.py(行:65: API_URL 尚未設定。請檢查 .env 檔案。)
+2026/09/04 10:14:56  [ERROR]  main.py(行:65: API_URL 尚未設定。請檢查 .env 檔案。)
+2026/09/04 10:14:59  [ERROR]  main.py(行:65: API_URL 尚未設定。請檢查 .env 檔案。)
+2026-09-04 10:24:27 [ERROR] main_v2.py(行:43: API URL 為空!)
+2026/09/04 10:24:55  [ERROR]  main.py(行:65: API_URL 尚未設定。請檢查 .env 檔案。)
+2026-09-04 10:31:26 [ERROR] main_v2.py(行:43: API URL 為空!)
+2026/09/04 10:31:39  [ERROR]  main.py(行:65: API_URL 尚未設定。請檢查 .env 檔案。)
+2026/09/04 10:33:46  [ERROR]  main.py(行:65: API_URL 尚未設定。請檢查 .env 檔案。)
+2026/09/04 10:33:57  [ERROR]  main.py(行:65: API_URL 尚未設定。請檢查 .env 檔案。)
+2026/09/04 10:39:09  [INFO]  main.py(行:69: 正在從API獲取資料: https://soa.tainan.gov.tw/Api/Service/Get/ea68f0dd-a0e9-4200-be8a-a4b76c3f87a4 )
+2026/09/04 10:39:09  [ERROR]  main.py(行:88: 執行截取時,發生未知錯誤: name 'Fales' is not defined)
+2026/09/04 10:40:09  [INFO]  main.py(行:69: 正在從API獲取資料: https://soa.tainan.gov.tw/Api/Service/Get/ea68f0dd-a0e9-4200-be8a-a4b76c3f87a4 )
+2026/09/04 10:40:09  [ERROR]  main.py(行:88: 執行截取時,發生未知錯誤: name 'Fales' is not defined)
+2026/09/04 10:41:38  [INFO]  main.py(行:69: 正在從API獲取資料: https://soa.tainan.gov.tw/Api/Service/Get/ea68f0dd-a0e9-4200-be8a-a4b76c3f87a4 )
+2026/09/04 10:41:39  [INFO]  main.py(行:78: 成功獲取 共計 38 筆資料)
+2026/09/04 10:41:39  [INFO]  main.py(行:211: 準備處理38筆記錄)
+2026/09/04 10:41:39  [ERROR]  main.py(行:99: 寫入excel時發生錯誤: name 'pd' is not defined)
+Traceback (most recent call last):
+  File "d:\Users\08ethan\Python\tainan_house_prj\main.py", line 94, in save_to_excel
+    df = pd.DataFrame(data)
+         ^^
+NameError: name 'pd' is not defined
+2026/09/04 10:41:39  [ERROR]  main.py(行:175: MYSQL 操作錯誤name 'pd' is not defined)
+Traceback (most recent call last):
+  File "d:\Users\08ethan\Python\tainan_house_prj\main.py", line 109, in save_to_mysql
+    df = pd.DataFrame(data)
+         ^^
+NameError: name 'pd' is not defined
+2026/09/04 10:41:56  [INFO]  main.py(行:69: 正在從API獲取資料: https://soa.tainan.gov.tw/Api/Service/Get/ea68f0dd-a0e9-4200-be8a-a4b76c3f87a4 )
+2026/09/04 10:41:56  [INFO]  main.py(行:78: 成功獲取 共計 38 筆資料)
+2026/09/04 10:41:56  [INFO]  main.py(行:211: 準備處理38筆記錄)
+2026/09/04 10:41:56  [ERROR]  main.py(行:99: 寫入excel時發生錯誤: name 'pd' is not defined)
+Traceback (most recent call last):
+  File "d:\Users\08ethan\Python\tainan_house_prj\main.py", line 94, in save_to_excel
+    df = pd.DataFrame(data)
+         ^^
+NameError: name 'pd' is not defined
+2026/09/04 10:41:56  [ERROR]  main.py(行:175: MYSQL 操作錯誤name 'pd' is not defined)
+Traceback (most recent call last):
+  File "d:\Users\08ethan\Python\tainan_house_prj\main.py", line 109, in save_to_mysql
+    df = pd.DataFrame(data)
+         ^^
+NameError: name 'pd' is not defined
+2026/09/04 10:44:20  [INFO]  main.py(行:69: 正在從API獲取資料: https://soa.tainan.gov.tw/Api/Service/Get/ea68f0dd-a0e9-4200-be8a-a4b76c3f87a4 )
+2026/09/04 10:44:20  [INFO]  main.py(行:78: 成功獲取 共計 38 筆資料)
+2026/09/04 10:44:20  [INFO]  main.py(行:211: 準備處理38筆記錄)
+2026/09/04 10:44:20  [INFO]  main.py(行:96: 資料寫入成功:excel tainan_house.xlsx)
+2026/09/04 10:44:20  [INFO]  main.py(行:111: 連線至MYSQL (localhost:3306) tainan)檢查資烙庫狀態......)
+2026/09/04 10:44:20  [ERROR]  main.py(行:175: MYSQL 操作錯誤port should be of type int)
+Traceback (most recent call last):
+  File "d:\Users\08ethan\Python\tainan_house_prj\main.py", line 112, in save_to_mysql
+    conn = pymysql.connect(
+        host=DB_HOST,
+    ...<3 lines>...
+        charset=DB_CHARSET,
+    )
+  File "D:\Users\08ethan\Python\.venv\Lib\site-packages\pymysql\connections.py", line 308, in __init__
+    raise ValueError("port should be of type int")
+ValueError: port should be of type int
+2026-09-04 10:44:35 [INFO] main_v2.py(行:47: 正在從API get data...)
+2026-09-04 10:44:35 [INFO] main_v2.py(行:55: 成功取得資料, 共 38 筆)
+2026-09-04 10:44:35 [INFO] main_v2.py(行:194: 準備處理38筆記錄)
+2026-09-04 10:44:35 [INFO] main_v2.py(行:73: 資料寫入成功: excel tainan_house.xlsx)
+2026-09-04 10:44:35 [INFO] main_v2.py(行:90: 連線至MySQL (localhost: 3306) 檢查資料庫狀態...)
+2026-09-04 10:44:35 [INFO] main_v2.py(行:136: MySQl 資料表已建立並清空舊資料!)
+2026-09-04 10:44:35 [INFO] main_v2.py(行:139: 正將資料寫入 MySQL table中...)
+2026-09-04 10:44:35 [INFO] main_v2.py(行:148: 資料成功寫入MySQL!)
+2026-09-04 11:16:59 [INFO] main.py(行:47: 正在從API get data...)
+2026-09-04 11:16:59 [INFO] main.py(行:55: 成功取得資料, 共 38 筆)
+2026-09-04 11:16:59 [INFO] main.py(行:194: 準備處理38筆記錄)
+2026-09-04 11:16:59 [INFO] main.py(行:73: 資料寫入成功: excel tainan_house.xlsx)
+2026-09-04 11:16:59 [INFO] main.py(行:90: 連線至MySQL (localhost: 3306) 檢查資料庫狀態...)
+2026-09-04 11:16:59 [INFO] main.py(行:136: MySQl 資料表已建立並清空舊資料!)
+2026-09-04 11:16:59 [INFO] main.py(行:139: 正將資料寫入 MySQL table中...)
+2026-09-04 11:16:59 [INFO] main.py(行:148: 資料成功寫入MySQL!)
+2026-09-04 11:16:59 [INFO] main.py(行:47: 正在從API get data...)
+2026-09-04 11:16:59 [INFO] main.py(行:55: 成功取得資料, 共 38 筆)
+2026-09-04 11:16:59 [INFO] main.py(行:219: 準備處理38筆記錄)
+2026-09-04 11:16:59 [INFO] main.py(行:73: 資料寫入成功: excel tainan_house.xlsx)
+2026-09-04 11:16:59 [INFO] main.py(行:90: 連線至MySQL (localhost: 3306) 檢查資料庫狀態...)
+2026-09-04 11:16:59 [INFO] main.py(行:136: MySQl 資料表已建立並清空舊資料!)
+2026-09-04 11:16:59 [INFO] main.py(行:139: 正將資料寫入 MySQL table中...)
+2026-09-04 11:16:59 [INFO] main.py(行:148: 資料成功寫入MySQL!)
+2026-09-04 11:17:24 [INFO] main.py(行:47: 正在從API get data...)
+2026-09-04 11:17:24 [INFO] main.py(行:55: 成功取得資料, 共 38 筆)
+2026-09-04 11:17:24 [INFO] main.py(行:194: 準備處理38筆記錄)
+2026-09-04 11:17:24 [INFO] main.py(行:73: 資料寫入成功: excel tainan_house.xlsx)
+2026-09-04 11:17:24 [INFO] main.py(行:90: 連線至MySQL (localhost: 3306) 檢查資料庫狀態...)
+2026-09-04 11:17:24 [INFO] main.py(行:136: MySQl 資料表已建立並清空舊資料!)
+2026-09-04 11:17:24 [INFO] main.py(行:139: 正將資料寫入 MySQL table中...)
+2026-09-04 11:17:24 [INFO] main.py(行:148: 資料成功寫入MySQL!)
+2026-09-04 11:17:24 [INFO] main.py(行:47: 正在從API get data...)
+2026-09-04 11:17:25 [INFO] main.py(行:55: 成功取得資料, 共 38 筆)
+2026-09-04 11:17:25 [INFO] main.py(行:219: 準備處理38筆記錄)
+2026-09-04 11:17:25 [INFO] main.py(行:73: 資料寫入成功: excel tainan_house.xlsx)
+2026-09-04 11:17:25 [INFO] main.py(行:90: 連線至MySQL (localhost: 3306) 檢查資料庫狀態...)
+2026-09-04 11:17:25 [INFO] main.py(行:136: MySQl 資料表已建立並清空舊資料!)
+2026-09-04 11:17:25 [INFO] main.py(行:139: 正將資料寫入 MySQL table中...)
+2026-09-04 11:17:25 [INFO] main.py(行:148: 資料成功寫入MySQL!)
+2026-09-04 11:17:25 [INFO] main.py(行:226: 執行讀取資料....)
+2026-09-04 11:17:25 [INFO] main.py(行:166: 成功讀取excel, 共38 筆資料)
+2026-09-04 11:17:25 [INFO] main.py(行:205: 成功讀取MySQL, 共38 筆資料)
+2026-09-04 11:17:25 [INFO] main.py(行:236: 程式執行結束)
+2026-09-04 11:19:07 [INFO] main.py(行:47: 正在從API get data...)
+2026-09-04 11:19:07 [INFO] main.py(行:55: 成功取得資料, 共 38 筆)
+2026-09-04 11:19:07 [INFO] main.py(行:194: 準備處理38筆記錄)
+2026-09-04 11:19:07 [INFO] main.py(行:73: 資料寫入成功: excel tainan_house.xlsx)
+2026-09-04 11:19:07 [INFO] main.py(行:90: 連線至MySQL (localhost: 3306) 檢查資料庫狀態...)
+2026-09-04 11:19:07 [INFO] main.py(行:136: MySQl 資料表已建立並清空舊資料!)
+2026-09-04 11:19:07 [INFO] main.py(行:139: 正將資料寫入 MySQL table中...)
+2026-09-04 11:19:07 [INFO] main.py(行:148: 資料成功寫入MySQL!)
+2026-09-04 11:19:07 [INFO] main.py(行:47: 正在從API get data...)
+2026-09-04 11:19:07 [INFO] main.py(行:55: 成功取得資料, 共 38 筆)
+2026-09-04 11:19:07 [INFO] main.py(行:219: 準備處理38筆記錄)
+2026-09-04 11:19:07 [INFO] main.py(行:73: 資料寫入成功: excel tainan_house.xlsx)
+2026-09-04 11:19:07 [INFO] main.py(行:90: 連線至MySQL (localhost: 3306) 檢查資料庫狀態...)
+2026-09-04 11:19:07 [INFO] main.py(行:136: MySQl 資料表已建立並清空舊資料!)
+2026-09-04 11:19:07 [INFO] main.py(行:139: 正將資料寫入 MySQL table中...)
+2026-09-04 11:19:07 [INFO] main.py(行:148: 資料成功寫入MySQL!)
+2026-09-04 11:19:07 [INFO] main.py(行:226: 執行讀取資料....)
+2026-09-04 11:19:07 [INFO] main.py(行:166: 成功讀取excel, 共38 筆資料)
+2026-09-04 11:19:07 [INFO] main.py(行:205: 成功讀取MySQL, 共38 筆資料)
+2026-09-04 11:19:07 [INFO] main.py(行:241: 程式執行結束)

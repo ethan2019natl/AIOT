@@ -1,0 +1,17 @@
+{
+    "pi_ip": "100.115.24.85",
+    "pi_user": "pi",
+    "devices": [
+        "辦公室-PC01 | 192.168.1.11 | Administrator",
+        "辦公室-PC02 | 192.168.1.12 | Administrator",
+        "辦公室-PC03 | 192.168.1.13 | User",
+        "財務部-專用機 | 192.168.1.20 | admin",
+        "主管-Laptop | 192.168.1.30 | Administrator",
+        "會議室-Projector | 192.168.1.40 | Guest",
+        "備用機-PC07 | 192.168.1.17 | Administrator",
+        "備用機-PC08 | 192.168.1.18 | Administrator",
+        "NAS-儲存伺服器 | 192.168.1.200 | admin",
+        "門市-POS終端 | 192.168.1.99 | pos_user",
+        "工程部-New-PC20 | 192.168.1.99 | pos_user"
+    ]
+}
